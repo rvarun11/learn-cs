@@ -1,5 +1,5 @@
 
-#### P1: [List Pattern](https://github.com/rvarun11/problem-solving/blob/master/Pattern%20Problems/solutions/p1.py)
+#### P1: [List Pattern]https://github.com/rvarun11/learn-cs/blob/master/problemSolving/patterns/solutions/p1.py)
 Given a list:  [-2,2,3,4,-4]
 ~~~
    $$$
@@ -23,7 +23,7 @@ for i in li:
     print(w*" ", (abs(i)+1)*"$")
 ~~~
 
-#### P2: [Half, Full & Pyramid](https://github.com/rvarun11/problem-solving/blob/master/Pattern%20Problems/solutions/p2.py)
+#### P2: [Half, Full & Pyramid](https://github.com/rvarun11/learn-cs/blob/master/problemSolving/patterns/solutions/p2.py)
 
 ~~~
 Half pyramid...
