@@ -1,6 +1,7 @@
 
 #### P1: [List Pattern](https://github.com/rvarun11/learn-cs/blob/master/problemSolving/patterns/solutions/p1.py)
-Given a list:  [-2,2,3,4,-4]
+Given, an integer list.  
+For eg, list is [-2,2,3,4,-4]
 ~~~
    $$$
      $$$
@@ -24,7 +25,8 @@ for i in li:
 ~~~
 
 #### P2: [Half, Full & Pyramid](https://github.com/rvarun11/learn-cs/blob/master/problemSolving/patterns/solutions/p2.py)
-
+Given, the number of rows.  
+For eg, n = 5.
 ~~~
 Half pyramid...
 
@@ -70,4 +72,29 @@ def inverted_pyramid(rows):
 half_pyramid(5)
 full_pyramid(5)
 inverted_pyramid(5)
+~~~
+
+#### P3: [Double Triangle](https://github.com/rvarun11/learn-cs/blob/master/problemSolving/patterns/solutions/p3.py)
+Given, the number of rows.
+For eg, n = 5.
+~~~
+1        1
+12      21
+123    321
+1234  4321
+1234554321
+~~~
+
+~~~python
+n=int(input())
+for i in range(1,n+1):
+   a=[]
+   w=2*(n-i)
+   k=[]
+   for j in range(1,i+1):
+       a.append(j)
+  
+   k=a[::-1]
+  
+   print(*a,w*" ",*k,sep="")
 ~~~
