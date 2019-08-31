@@ -1,5 +1,5 @@
 
-#### P1: [List Pattern]https://github.com/rvarun11/learn-cs/blob/master/problemSolving/patterns/solutions/p1.py)
+#### P1: [List Pattern](https://github.com/rvarun11/learn-cs/blob/master/problemSolving/patterns/solutions/p1.py)
 Given a list:  [-2,2,3,4,-4]
 ~~~
    $$$
