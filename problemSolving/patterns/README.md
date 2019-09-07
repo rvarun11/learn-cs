@@ -101,12 +101,13 @@ for i in range(1,n+1):
 Credits to [Sandeep Pradhan](https://github.com/sandeep831) for the solution.  
 Given, the number of rows.
 For eg, n = 5.
-~
+~~~
 1
 3-2
 4-5-6
 10-9-8-7
 11-12-13-14-15
+~~~
 
 ~~~c
 #include <stdio.h>
