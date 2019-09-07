@@ -52,7 +52,6 @@ Inverted pyramid...
    ***
     *
 ~~~
-
 ~~~python
 def half_pyramid(rows):
     print('Half pyramid...\n')
@@ -84,7 +83,6 @@ For eg, n = 5.
 1234  4321
 1234554321
 ~~~
-
 ~~~python
 n=int(input())
 for i in range(1,n+1):
@@ -97,4 +95,44 @@ for i in range(1,n+1):
    k=a[::-1]
   
    print(*a,w*" ",*k,sep="")
+~~~
+
+#### [P4: Advanced Triangle Pattern with Star in C](https://github.com/rvarun11/learn-cs/blob/master/problemSolving/patterns/solutions/p4.c)
+Credits to [Sandeep Pradhan](https://github.com/sandeep831) for the solution.
+Given, the number of rows.
+For eg, n = 5.
+1
+3*2
+4*5*6
+10*9*8*7
+11*12*13*14*15
+
+~~~c
+#include <stdio.h>
+int main() {
+	int n = 10,c=1,temp=0,temp2;
+	for (int i = 1;i<=n;i++){
+	    if ((i%2) !=0){ //for odd rows
+	        for (int j = 1;j<=2*i-1;j++){
+	            if ((j%2)!=0){
+	                printf("%d",c);
+	                c++;
+	            }
+	            else printf("*");
+	        }
+	    }
+	    else {//for even rows, i.e 3*2, 10*9*8*7 , etc
+            temp = (i*i/2)+i/2;
+	        for (int j = 1;j<=2*i-1;j++){
+	            if ((j%2)!=0){
+	             printf("%d",temp);
+	             temp--;
+	            }
+	            else printf("*");
+	        }
+			c = c + i;
+	        }
+	        printf("\n");
+	        }
+}
 ~~~
