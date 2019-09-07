@@ -98,14 +98,14 @@ for i in range(1,n+1):
 ~~~
 
 #### [P4: Advanced Triangle Pattern with Star in C](https://github.com/rvarun11/learn-cs/blob/master/problemSolving/patterns/solutions/p4.c)
-Credits to [Sandeep Pradhan](https://github.com/sandeep831) for the solution. 
+Credits to [Sandeep Pradhan](https://github.com/sandeep831) for the solution.  
 Given, the number of rows.
 For eg, n = 5.
 1
 3*2
-4*5*6
-10*9*8*7
-11*12*13*14*15
+4-5-6
+10-9-8-7
+11-12-13-14-15
 
 ~~~c
 #include <stdio.h>
@@ -118,7 +118,7 @@ int main() {
 	                printf("%d",c);
 	                c++;
 	            }
-	            else printf("*");
+	            else printf("-");
 	        }
 	    }
 	    else {//for even rows, i.e 3*2, 10*9*8*7 , etc
@@ -128,7 +128,7 @@ int main() {
 	             printf("%d",temp);
 	             temp--;
 	            }
-	            else printf("*");
+	            else printf("-");
 	        }
 			c = c + i;
 	        }
