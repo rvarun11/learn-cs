@@ -114,7 +114,7 @@ For eg, n = 5.
 int main() {
 	int n = 10,c=1,temp=0,temp2;
 	for (int i = 1;i<=n;i++){
-	    if ((i%2) !=0){ //for odd rows
+	    if ((i%2) !=0){ // Odd rows
 	        for (int j = 1;j<=2*i-1;j++){
 	            if ((j%2)!=0){
 	                printf("%d",c);
@@ -123,8 +123,8 @@ int main() {
 	            else printf("-");
 	        }
 	    }
-	    else {//for even rows, i.e 3*2, 10*9*8*7 , etc
-            temp = (i*i/2)+i/2;
+	    else {// Even rows, i.e 3*2, 10*9*8*7 , etc
+            temp = (i*i/2)+i/2; // Relation for i row (even) and first element of the same row. 
 	        for (int j = 1;j<=2*i-1;j++){
 	            if ((j%2)!=0){
 	             printf("%d",temp);
@@ -132,7 +132,7 @@ int main() {
 	            }
 	            else printf("-");
 	        }
-			c = c + i;
+			c = c + i; // Here, the last element of odd row was the row number gave the first element of the next row.
 	        }
 	        printf("\n");
 	        }
