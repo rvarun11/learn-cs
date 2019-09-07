@@ -9,7 +9,7 @@ int main() {
 	                printf("%d",c);
 	                c++;
 	            }
-	            else printf("*");
+	            else printf("-");
 	        }
 	    }
 	    else {//for even rows, i.e 3*2, 10*9*8*7 , etc
@@ -19,7 +19,7 @@ int main() {
 	             printf("%d",temp);
 	             temp--;
 	            }
-	            else printf("*");
+	            else printf("-");
 	        }
 			c = c + i;
 	        }
