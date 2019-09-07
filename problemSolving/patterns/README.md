@@ -97,7 +97,7 @@ for i in range(1,n+1):
    print(*a,w*" ",*k,sep="")
 ~~~
 
-#### [P4: Advanced Triangle Pattern with Star in C](https://github.com/rvarun11/learn-cs/blob/master/problemSolving/patterns/solutions/p4.c)
+#### P4: [Advanced Triangle Pattern with Star in C](https://github.com/rvarun11/learn-cs/blob/master/problemSolving/patterns/solutions/p4.c)
 Credits to [Sandeep Pradhan](https://github.com/sandeep831) for the solution.  
 Given, the number of rows.
 For eg, n = 5.
