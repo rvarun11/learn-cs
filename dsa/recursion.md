@@ -17,9 +17,9 @@
 
 ##### Nested Recursion
     The parameter of RC is a RC.
-    ~~~c++
+~~~c++
     void func (int n){
 	if (__)
 		func (func(n-1));
     }
-    ~~~
+~~~

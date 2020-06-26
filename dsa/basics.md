@@ -21,7 +21,7 @@
     - Pointers help in accessing resources which are outside the program (heap, files, etc.) and parameter passing.
     - Pointer takes same amout of space as taken by integer datatype.
     - To create an alias/reference for a varialble use &. For eg.
-  ~~~c
+~~~c
   main(){
       int a = 10;
       int &r = a;
