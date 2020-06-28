@@ -1,4 +1,4 @@
-### Arrays
+### N2: Arrays
 
 ##### Declaring & Accessing
     Apart from normal ways, an array element can be called using

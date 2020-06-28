@@ -1,4 +1,4 @@
-### Notes 1: Basics
+### N1: Basics
 
 ##### [Segments](https://www.geeksforgeeks.org/memory-layout-of-c-program/)
     Main memory is divide into manageable pieces called segments. Each segment is divided into 3 sections, Code, Stack and Heap sections.
@@ -14,8 +14,8 @@
 ##### ADT
     Any Data Type has its set of Operations and Representation.
 
-##### [Time Complexity](https://www.youtube.com/watch?v=fZc3ijGM0aM)
-    TC can be defined by the function of time needed by an algorithm to complete for different inputs. It helps in analyzing how good an aglorithm is. [read desc of link]
+##### Time Complexity
+    TC can be defined by the function of time needed by an algorithm to complete, for different inputs. It helps in analyzing how good an aglorithm is. Read desc of [TC](https://www.youtube.com/watch?v=fZc3ijGM0aM)
 
 #### Pointers
     - Pointers help in accessing resources which are outside the program (heap, files, etc.) and parameter passing.
