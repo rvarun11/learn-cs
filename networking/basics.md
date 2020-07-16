@@ -1,7 +1,7 @@
 ### Basics of Networking
 
 ##### Basics
-    - [Protocol Data Units](https://www.youtube.com/watch?v=t-ai8JzhHuY):
+    [Protocol Data Units](https://www.youtube.com/watch?v=t-ai8JzhHuY):
         1. Data: The data received from the top 3 layers (Application, Presentation & Session)
         2. Segment: Data + L4 Header (from Transport Layer)
         3. Packet: Segment + L3 Header (from the Network Layer, it includes the IP Address)
