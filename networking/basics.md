@@ -13,9 +13,9 @@
     
     1. **User Exec Mode (EM)**: Default mode
     
-    2. **Privileged Exec Mode (PEM)**: Using > enable
+    2. **Privileged Exec Mode (PEM)**: Using `enable`
     
-    3. **Global Configuration Mode (GCM)**: use __**conf t**__
+    3. **Global Configuration Mode (GCM)**: use `conf t`
     - To change Host name, use __**hostname** NewHostName__
     - To add a password, use __**enable* password__
     - To enable encrpytion on passwords, use __**service password-encryption**__
