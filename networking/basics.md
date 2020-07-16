@@ -1,18 +1,21 @@
 ### Basics of Networking
 
 ##### Basics
-    [Protocol Data Units](https://www.youtube.com/watch?v=t-ai8JzhHuY):
-        1. Data: The data received from the top 3 layers (Application, Presentation & Session)
-        2. Segment: Data + L4 Header (from Transport Layer)
-        3. Packet: Segment + L3 Header (from the Network Layer, it includes the IP Address)
-        4. Frame: Packet + L2 Header & Trailer (from Data Link Layer)
+- [Protocol Data Units](https://www.youtube.com/watch?v=t-ai8JzhHuY):
+    1. Data: The data received from the top 3 layers (Application, Presentation & Session)
+    2. Segment: Data + L4 Header (from Transport Layer)
+    3. Packet: Segment + L3 Header (from the Network Layer, it includes the IP Address)
+    4. Frame: Packet + L2 Header & Trailer (from Data Link Layer)
 
-    - Switch is a L2 device. It works on frames. 
+- Switch is a L2 device. It works on frames. 
     
-    - [Basic Device Security](https://www.youtube.com/watch?v=SDocmq1c05s&)
-        1. **User Exec Mode (EM)**: Default mode
-        2. **Privileged Exec Mode (PEM)**: Using __**enable**__
-        3. **Global Configuration Mode (GCM)**: use __**conf t**__
+- [Basic Device Security](https://www.youtube.com/watch?v=SDocmq1c05s&)
+    
+    1. **User Exec Mode (EM)**: Default mode
+    
+    2. **Privileged Exec Mode (PEM)**: Using __**enable**__
+    
+    3. **Global Configuration Mode (GCM)**: use __**conf t**__
             - To change Host name, use __**hostname** NewHostName__
             - To add a password, use __**enable** password__
             - To enable encrpytion on passwords, use __**service password-encryption**__
