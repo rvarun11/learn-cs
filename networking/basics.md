@@ -16,7 +16,7 @@
     2. **Privileged Exec Mode (PEM)**: Using __**enable**__
     
     3. **Global Configuration Mode (GCM)**: use __**conf t**__
-        - To change Host name, use __**hostname** NewHostName__
+    - To change Host name, use __**hostname** NewHostName__
         - To add a password, use __**enable** password__
         - To enable encrpytion on passwords, use __**service password-encryption**__
         - To encrypt password more securely, using MD5. use Use __**enable secret** Password__
