@@ -24,5 +24,4 @@
     - To remove previously configured command, use `no PreviousCommand`
     - To view the active config file, use `show running-config`
     - To view startup config file, use `show startup-config`
-    - To save config file, `write` write memory` `copy running-config startup-config`
-            
+    - To save config file, `write` `write memory` `copy running-config startup-config`
