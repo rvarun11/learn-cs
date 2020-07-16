@@ -16,13 +16,13 @@
     2. **Privileged Exec Mode (PEM)**: Using `enable`
     
     3. **Global Configuration Mode (GCM)**: use `conf t`
-    - To change Host name, use __**hostname** NewHostName__
-    - To add a password, use __**enable* password__
-    - To enable encrpytion on passwords, use __**service password-encryption**__
-    - To encrypt password more securely, using MD5. use Use __**enable secret** Password__
-    - To run **PEM** command on **GCM**, use __**run** PEMcommand__
-    - To remove previously configured command, use __**no** PreviousCommand__
-    - To view the active config file, use __**show running-config**__
-    - To view startup config file, use __**show startup-config**__
-    - To save config file, __**write**__ __**write memory**__ & __**copy running-config startup-config**__
+    - To change Host name, use `hostname NewHostName`
+    - To add a password, use `enable password`
+    - To enable encrpytion on passwords, use `service password-encryption`
+    - To encrypt password more securely, using MD5. use Use `enable secret Password`
+    - To run **PEM** command on **GCM**, use `run PEMcommand`
+    - To remove previously configured command, use `no PreviousCommand`
+    - To view the active config file, use `show running-config`
+    - To view startup config file, use `show startup-config`
+    - To save config file, `write` write memory` `copy running-config startup-config`
             
