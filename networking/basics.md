@@ -1,6 +1,6 @@
 ### Basics of Networking
 
-- [OSI Model Layers]()
+- [OSI Model Layers](https://www.youtube.com/watch?v=t-ai8JzhHuY)
     1. **Physical**: 
     - Deals with the physical medium. 
     - Coversion of digital bits to electrical(wired) / radio(wireless) and vice-versa for transmision.
@@ -25,8 +25,7 @@
     - HTTP & HTTPS are L7 protocols.
     - Syncing the communication.
     
-
-- [Protocol Data Units](https://www.youtube.com/watch?v=t-ai8JzhHuY)
+    **Protocol Data Units**
     1. Data: The data received from the top 3 layers (Application, Presentation & Session)
     2. Segment: Data + L4 Header (from Transport Layer)
     3. Packet: Segment + L3 Header (from the Network Layer, it includes the IP Address)
