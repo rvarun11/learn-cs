@@ -17,7 +17,7 @@
     - Provides Host-Host communication.
     - Breaks and resassembles data so that it can be sent easily over the network.
     5. **Session**:
-    - Controls the session by establishing, managing,
+    - Controls the session by establishing, managing and terminating connection between applications (eg. Web Browser & Youtube, etc)
     6. **Presentation**:
     - It translates the data so that it can be used appropriately by the network.
     7. **Application**:
