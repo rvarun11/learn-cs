@@ -1,6 +1,32 @@
 ### Basics of Networking
 
-- [Protocol Data Units](https://www.youtube.com/watch?v=t-ai8JzhHuY):
+- [OSI Model Layers]()
+    1. **Physical**: 
+    - Deals with the physical medium. 
+    - Coversion of digital bits to electrical(wired) / radio(wireless) and vice-versa for transmision.
+    - Considers voltages, transmission, physical connectors, etc. 
+    2. **Data Link**: 
+    - Provides Node-Node connectivity.
+    - Switches operate on L2.
+    3. **Network**:
+    - Provides connectivity between different hosts.
+    - IP Addressing.
+    - Path Selection.
+    - Routers operate on L3.
+    4. **Transport**:
+    - Provides Host-Host communication.
+    - Breaks and resassembles data so that it can be sent easily over the network.
+    5. **Session**:
+    - Controls the session by establishing, managing,
+    6. **Presentation**:
+    - It translates the data so that it can be used appropriately by the network.
+    7. **Application**:
+    - Closest to end user. Interacts with software applications.
+    - HTTP & HTTPS are L7 protocols.
+    - Syncing the communication.
+    
+
+- [Protocol Data Units](https://www.youtube.com/watch?v=t-ai8JzhHuY)
     1. Data: The data received from the top 3 layers (Application, Presentation & Session)
     2. Segment: Data + L4 Header (from Transport Layer)
     3. Packet: Segment + L3 Header (from the Network Layer, it includes the IP Address)
@@ -22,15 +48,6 @@
     - To view the active config file, use `show running-config`
     - To view startup config file, use `show startup-config`
     - To save config file, use either `write` `write memory` or `copy running-config startup-config`
-
--  OSI Layer
-    1. **Physical Layer**: 
-    - Deals with the physical medium. 
-    - Coversion of digital bits to electrical(wired) / radio(wireless) and vice-versa for transmision.
-    - Considers voltages, transmission, physical connectors, etc. 
-    2. **Data Link Layer**: 
-    - Provides Node-Node connectivity.
-    - Switches operate on L2.
 
 - [Ethernet LAN Switching](https://youtu.be/5q1pqdmdPjo)
     - [L2 Header & Trailer](https://youtu.be/u2n762WG0Vo?t=352)
@@ -55,5 +72,5 @@
 - [IPv4 Addressing](https://youtu.be/3ROdsfEUuhs)
     - Netmask: It is a term used to divide the IP address into subnets and tell the available hosts in the network.
     - IP Addresses are of two types:
-        1. Network Address: the host portion of the addr is 0. It is the first addr of the network and cannot be assigned to a network.
-        2. Broadcast Address: the host portion of the addr is 1. It the last addr of the network & can't be assigned to a network.
+        1. Network Address: the host portion of the addr is 0. It is the first addr of the network and cannot be assigned to a host.
+        2. Broadcast Address: the host portion of the addr is 1 (For eg. 192.168.1.255). It the last addr of the network & can't be assigned to a network.
