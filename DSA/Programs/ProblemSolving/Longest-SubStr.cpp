@@ -8,4 +8,13 @@ using namespace std;
 
 int LCS(char *X,char *Y,int m,int n){
 
+    int lcsTable[m+1][n+1];
+    int l = 0;
+
+    for (int i=0;i<m;i++){
+        for (int j=0;j<n;j++){
+            
+        }
+    }
+
 }
