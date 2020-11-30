@@ -15,14 +15,14 @@ def commitDays(days):
 
 def task(days,n):
     for i in range(days):
-        cd = str(i) + 'days ago'
+        cd = str(i) + ' days ago'
         while(n!=0):
             with open('test.txt','a') as file:
                 file.write(cd+'\n')
             os.system('git add test.txt')
-            os.system('git commit --date="'+cd+'"-m "updates"')
+            os.system('git commit --date="'+cd+'" -m "updates"')
             n-=1
 
-    os.system('git push')
+    os.system('git push -u origin master')
 
 commitDays(200)
