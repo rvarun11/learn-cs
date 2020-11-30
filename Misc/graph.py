@@ -23,4 +23,6 @@ def task(days,n):
             os.system('git commit --date="'+cd+'"-m "updates"')
             n-=1
 
-    os.system('git push -u origin master')
+    os.system('git push')
+
+commitDays(200)
