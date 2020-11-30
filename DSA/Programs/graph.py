@@ -1,16 +1,16 @@
-# This is made for educational purposes. Please do not use this to gain unfair advantage over others.
+# This is made for educational purposes.
 
 import os
 import random
 
 def task(days):
     for i in range(days):
-        cd = str(i+2) + ' days ago'
+        cd = str(i) + ' days ago'
         n = subTask()
         while(n!=0):
-            with open('test.txt','a') as file:
+            with open('./DSA/Notes/test.txt','a') as file:
                 file.write(cd+'\n')
-            os.system('git add test.txt')
+            os.system('git add ./DSA/Notes/test.txt')
             os.system('git commit --date="'+cd+'" -m "updates"')
             n-=1
 
@@ -23,5 +23,5 @@ def subTask():
     else:
         n = random.randrange(4,9)
     return n
-    
-task(250)
+
+# Call task()
