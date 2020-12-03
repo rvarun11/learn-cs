@@ -1,3 +1,6 @@
 {
-    "python.pythonPath": "/bin/python3.9"
+    "python.pythonPath": "/bin/python3.9",
+    "files.associations": {
+        "vector": "cpp"
+    }
 }
