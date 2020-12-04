@@ -1,3 +1,5 @@
+// https://www.codechef.com/DEC20B/problems/VACCINE2
+
 #include<bits/stdc++.h>
 #define L long long int
 
