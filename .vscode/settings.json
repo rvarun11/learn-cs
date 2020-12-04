@@ -1,6 +1,8 @@
 {
     "python.pythonPath": "/bin/python3.9",
     "files.associations": {
-        "vector": "cpp"
+        "vector": "cpp",
+        "*.tcc": "cpp",
+        "list": "cpp"
     }
 }
