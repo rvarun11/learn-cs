@@ -3,6 +3,9 @@
     "files.associations": {
         "vector": "cpp",
         "*.tcc": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "iostream": "cpp",
+        "chrono": "cpp",
+        "cmath": "cpp"
     }
 }
