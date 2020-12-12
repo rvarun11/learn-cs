@@ -1,4 +1,4 @@
-// CodeChef December Challenge Problem - Even Pair Sum.
+// CodeChef December 20 Challenge Problem - Even Pair Sum.
 // https://www.codechef.com/DEC20B/problems/EVENPSUM
 // https://www.geeksforgeeks.org/count-odd-and-even-numbers-in-a-range-from-l-to-r/
 

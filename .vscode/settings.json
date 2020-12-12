@@ -6,6 +6,7 @@
         "list": "cpp",
         "iostream": "cpp",
         "chrono": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "ostream": "cpp"
     }
 }

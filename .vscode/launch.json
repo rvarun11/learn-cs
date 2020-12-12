@@ -5,14 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "gcc-7 build and debug active file",
+            "name": "g++-10 - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -29,7 +22,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "gcc-7 build active file",
+            "preLaunchTask": "C/C++: g++-10 build active file",
             "miDebuggerPath": "/usr/bin/gdb"
         }
     ]
