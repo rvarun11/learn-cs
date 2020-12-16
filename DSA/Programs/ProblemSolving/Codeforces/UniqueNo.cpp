@@ -1,27 +1,34 @@
-#include<iostream>
+// https://codeforces.com/blog/entry/85594
+
+#include <bits/stdc++.h>
+
 using namespace std;
 
-int getSum(int n){
-    int sum=0;
-    while (n!=0){
-        sum+=n%10;
-        n/=10;
+void solve() {
+  int x;
+  cin >> x;
+  vector<int> ans;
+  int sum = 0, last = 9;
+  while (sum < x && last > 0) {
+    ans.push_back(min(x - sum, last));
+    sum += last;
+    last--;
+  }
+  if (sum < x) {
+    cout << -1 << "\n";
+  } else {
+    reverse(ans.begin(), ans.end());
+    for (int i : ans) {
+      cout << i;
     }
-    return sum;
+    cout << "\n";
+  }
 }
 
-int find(int x){
-    if (x<10)
-        return x;
-    if (x%10==0)
-        return -1;
-
-    
-
-    return num;
-}
-int main(){
-    int x=5;
-    cout << find(x) << endl;
-    return 0;
+int main() {
+  int t;
+  cin >> t;
+  while (t--) {
+    solve();
+  }
 }
