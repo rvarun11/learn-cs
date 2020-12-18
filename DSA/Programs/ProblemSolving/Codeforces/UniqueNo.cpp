@@ -1,7 +1,6 @@
 // https://codeforces.com/blog/entry/85594
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
 void solve() {
