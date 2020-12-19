@@ -15,13 +15,13 @@ void solve(int x) {
 
  if (sum < x)
   cout<<-1<<endl;
-else{
-  reverse(ans.begin(),ans.end());
+ else{
+    reverse(ans.begin(),ans.end());
   for (int i: ans){
     cout << i;
   }
   cout << endl;
-}
+  }
 }
 
 int main() {
