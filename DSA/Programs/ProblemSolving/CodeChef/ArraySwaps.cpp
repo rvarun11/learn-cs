@@ -1,11 +1,11 @@
-//
+// https://www.codechef.com/UWCOI21/problems/UWCOI21B
 #include <bits/stdc++.h> 
 using namespace std;
 
 int main(){
     int n,m;
     cin>>n>>m;
-    vector<int> arr,brr;
+    deque<int> arr,brr;
     for (int i=0;i<n;i++){
         int x;
         cin>>x;
@@ -16,12 +16,15 @@ int main(){
         cin>>x;
         brr.push_back(x);
     }
+    
     sort(brr.begin(),brr.end());
+    sort(arr.begin(),arr.end());
+ 
     int c=0;
-    while(brr.empty()){
+    while(brr.size()!=0){
         int x = brr.front();
-        brr.erase(brr.begin());
-        arr.insert(arr.begin(),x); 
+        brr.pop_front();
+        arr.push_front(x);
         int i=0;
         while (i!=arr.size()){
             int y = arr[i];
