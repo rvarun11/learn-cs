@@ -1,4 +1,5 @@
 // https://www.codechef.com/UWCOI21/problems/UWCOI21B
+// https://discuss.codechef.com/t/uwcoi21c-organisation-editorial/82417
 #include <bits/stdc++.h> 
 using namespace std;
 
