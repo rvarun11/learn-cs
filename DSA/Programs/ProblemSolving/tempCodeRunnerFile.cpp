@@ -6,8 +6,6 @@ using namespace std;
 vector<int> solve(vector<int> &A, int B){
     vector<int> ans;
     for(int i=0;i<A.size();i++){
-        if (i==A.size()-B+1)
-            break;
         int max = A[i];
         int t=B,j=i;
         while(t--){
