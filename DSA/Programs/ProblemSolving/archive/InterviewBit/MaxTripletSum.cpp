@@ -1,7 +1,6 @@
 //https://www.interviewbit.com/problems/maximum-sum-triplet/
 //https://www.geeksforgeeks.org/find-maximum-sum-triplets-array-j-k-ai-aj-ak/
-
-// Remember to see tis TC & SC
+// Remember to see its TC & SC
 
 #include<bits/stdc++.h>
 using namespace std;
