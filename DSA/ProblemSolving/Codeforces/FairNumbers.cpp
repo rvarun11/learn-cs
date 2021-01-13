@@ -1,29 +1,34 @@
 // Technocup 2021 - ER 3
 //https://codeforces.com/contest/1411
-// Sol.:
+
 #include<bits/stdc++.h>
 using namespace std;
-#define L long long int
-void solve(L n){
-    L temp = n;
-    while (n){
-        int d = n%10;
-        if (temp%d!=0){
-            temp++;
-            n++;
-        }
-        n/=10;
-    }
+#define ll long long int
+ll solve(ll n){
+    ll temp=n;      
+    while(temp){
+        int digit=temp%10;
+        temp/=10;
+        if (digit==0)
+            continue;
 
+        if (n%digit==0)
+            continue;
+        else{
+            n++;
+            temp=n;
+        }
+    }
+    return n;
 }
 
 int main(){
     int t;
     cin>>t;
     while (t--){
-        L n;
+        ll n;
         cin>>n;
-        solve(n);
+        cout<<solve(n)<<"\n";
     }
     return 0;
 }
