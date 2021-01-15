@@ -1,21 +1,22 @@
+//https://cses.fi/problemset/submit/1090/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long int
 
 int solve(vector<int> w,int n,int x){
-    int g=0,tw=0;
-
-    for (int i=0;i<n;i++){
-    
-        if ((tw+w[i])<=x)
-            tw+=w[i];
-        else{
-            g++;
-            tw=0;
-            i-=1;
+    int left=0,right=n-1,g=0;
+    while(left<=right){
+        if (w[left]+w[right]<=x){
+            left++;
+            right--;
         }
+        else{
+            right--;
+        }
+        g++;
     }
-    return g+1;
+    return g;
 }
 
 int main(){
