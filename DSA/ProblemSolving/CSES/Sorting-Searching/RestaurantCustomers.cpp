@@ -24,9 +24,8 @@ int main(){
             curr++;
             maxCust=max(curr,maxCust);
         }
-        else{
+        else
             curr--;
-        }
     }
 
     cout<<maxCust<<"\n";
