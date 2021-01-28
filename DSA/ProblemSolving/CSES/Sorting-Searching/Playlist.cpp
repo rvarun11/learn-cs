@@ -8,21 +8,16 @@ using namespace std;
 // const lli mod = 1e9 + 7;
 
 int main(){
-    lli n,x;
+    lli n;
     cin>>n;
     vector<lli> songs(n);
     
     for (int i=0;i<n;i++)
         cin>>songs[i];
-    int i=0,j=1;
-    lli count=0,max_seq=0;
-    while(songs.size()!=0){
-        if (songs[i]==songs[j]){
-            i++;
-        }
-    }
-        
+    
+    map<lli, lli> location;
+    lli ans = 0;
 
-    cout<<max_seq;
+    cout << ans << '\n';    
 	return 0;
 }
