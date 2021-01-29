@@ -8,20 +8,20 @@ using namespace std;
 // const lli mod = 1e9 + 7;
 
 int main(){
-    int n;
+    int n,x;
     cin>>n;
-    multiset<int> cubes;
-    
-    for (int i=0,x;i<n;i++){
+    vector<pair<int,int>> cubes;
+
+    for (int i=0;i<n;i++){
         cin>>x;
-        auto it = cubes.upper_bound(x);
-        if (it==cubes.end())
-            cubes.insert(x);
-        else{
-            cubes.erase(it);
-            cubes.insert(x);
-        }
+        cubes.push_back(make_pair(x,i));
     }
-    cout<<cubes.size();
-    return 0;
+    
+    sort(cubes.begin(),cubes.end());
+
+    int i=1,count=0;
+    while(cubes.size()){
+
+    }
+    
 }

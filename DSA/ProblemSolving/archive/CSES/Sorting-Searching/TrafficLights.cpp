@@ -20,6 +20,8 @@ int main(){
         auto it = locations.upper_bound(point);
         l = *prev(it);
         r = *it;
+
+        
         locations.insert(point);
 
         auto e = distances.find(r-l);
